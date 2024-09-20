@@ -10,9 +10,9 @@
 %>
 		<%=id %>님 환영 합니다.<br><br><br>
 		
-		정보수정<br>
+		<a href="updateform.jsp">정보수정</a><br>
 		<a href="logout.jsp">로그아웃</a><br>
-		회원탈퇴<br>
+		<a href="deleteform.jsp">회원탈퇴</a><br>
 
 <% }else{ 		// 세션이 없는 경우(비정상적인 접근) %>
 		<a href="memberform.html">회원가입></a><br>
